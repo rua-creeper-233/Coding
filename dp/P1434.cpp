@@ -39,7 +39,7 @@ void solve() {
     sort(f + 1, f + 1 + n, cmp);//排序
     return;
 }
-
+/*冒泡排序*/
 bool check(int i, int j)//看f[i]能否到达f[j]
 {
     for (int k = 0; k <= 3; k++)
