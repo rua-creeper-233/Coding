@@ -70,4 +70,3 @@ set<int,cmp> s;//定义一个set，按照cmp排序
 ### set和multiset的底层实现是红黑树，所以插入和查找的时间复杂度都是O(logn)。
 
 ### 如果仅需要去重，不需要排序，可以使用unordered_set和unordered_multiset，底层实现是哈希表，插入和查找的时间复杂度都是O(1)。
-
